@@ -1,0 +1,30 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+
+##
+# Local Servers
+##
+127.0.0.1    nginx.localhost
+127.0.0.1    php70.nginx.localhost
+127.0.0.1    php56.nginx.localhost
+
+127.0.0.1    apache.localhost
+127.0.0.1    php70.apache.localhost
+127.0.0.1    php56.apache.localhost
+
+
+##
+# Work
+##
+127.0.0.1	 wildcardtest1.site    www.wildcardtest1.site
+127.0.0.1	 wildcardtest2.site    www.wildcardtest2.site
+127.0.0.1	 wildcardtest3.site    www.wildcardtest3.site
+
